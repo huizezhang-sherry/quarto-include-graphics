@@ -1,0 +1,9 @@
+---
+title: "main-top-level"
+format: html
+---
+
+```{r}
+knitr::include_graphics(here::here("figures/R_logo.png"))
+```
+

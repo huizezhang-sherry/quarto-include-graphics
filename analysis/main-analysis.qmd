@@ -1,10 +1,20 @@
 ---
 title: "main-under-analysis-folder"
-format: html
+format: 
+  html:
+    self-contained: true
 ---
 
 ```{r}
 knitr::include_graphics(here::here("figures/R_logo.png"))
 ```
 
+
+Change the YAML header to the following solves the issue:
+
+```
+format: 
+  html:
+    self-contained: true
+```
 
